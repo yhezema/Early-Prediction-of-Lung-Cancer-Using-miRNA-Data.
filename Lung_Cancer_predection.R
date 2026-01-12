@@ -1,7 +1,6 @@
 # -------------------------------------------#
 # Section 0: Load Required Libraries---
 # -------------------------------------------#
-# If you wanna save time run the code from section 5, line 141 by reading the final dataset attached to this script
 
 library(dplyr) # Data wrangling (filtering, merging, summarizing)
 library(tidyr) # Data wrangling 
@@ -704,6 +703,7 @@ ggplot(results, aes(x = logFC, y = -log10(adj.P.Val), color = Significant, shape
     shape = "Feature"
   ) +
   theme_minimal()
+
 
 
 
